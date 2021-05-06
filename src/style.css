@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #e8eeee;
+}
+
+#container {
+  width: 60rem;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#form input {
+  width: 240px;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#form button {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  background-color: #43bc70;
+  border-radius: 3px;
+  color: #fff;
+}
+
+#containerTask {
+  margin-top: 20px;
+}
+
+#containerTask h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#containerTask ul li {
+  margin: 0 20px;
+}
+
+#containerTask button {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 14px;
+  margin-left: 10px;
+}
