@@ -10,6 +10,15 @@ body {
   background-color: #e8eeee;
 }
 
+button {
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
 #container {
   width: 60rem;
   margin: 20px 0;
@@ -33,7 +42,7 @@ h1 {
 #form button {
   font-size: 16px;
   padding: 8px;
-  border: none;
+  border: 0;
   background-color: #43bc70;
   border-radius: 3px;
   color: #fff;
