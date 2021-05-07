@@ -42,6 +42,5 @@ buttonAddTask.onclick = () => {
   if (inputTask.value.trim()) {
     addTask(inputTask.value);
     inputTask.value = '';
-    console.log(tasks);
   }
 };
